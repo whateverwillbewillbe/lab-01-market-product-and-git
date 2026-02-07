@@ -27,11 +27,11 @@ Telegram's Authorization and Session Service is based on the proprietary MTProto
 # Data Flow
 
 
-[!Telegram Sequence Diagram](./diagrams/out/telegram/architecture-sequence/Sequence%20Diagram.svg)
+[!Telegram Sequence Diagram](./diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
 
 
 
-[!Telegram Sequence Diagram](./diagrams/src/telegram/architecture-sequence.puml)
+[!Telegram Sequence Diagram](./diagrams/src/telegram/sequence-diagram.puml)
 
 
 I’ll pick **Group 2: Checkout (Reservation & Payment)** — the big light-green block in the middle.
