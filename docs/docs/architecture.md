@@ -3,19 +3,7 @@ Telegram;
 https://web.telegram.org
 Telegram — это популярный, безопасный и быстрый кроссплатформенный мессенджер, основанный в 2013 году.
 ## Main components
-Note
-
-According to the C4 model, a component is a grouping of related functionality encapsulated behind a well-defined interface.
-
-Important
-
-Use paths relative to your file.
-
-Replace space in the path with %20 (see URL encoding).
-
-Embed the product's Component Diagram.svg.
-
-Example: ![Telegram Component Diagram](../../../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
+![Telegram Component Diagram(../../../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
 Rendered image (click to open)
 Provide a link to the PlantUML code for that component diagram.
