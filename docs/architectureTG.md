@@ -9,15 +9,34 @@ Rendered image (click to open)
 ![Telegram Component Diagram](./diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
 Select at least 5 components of the product from the component diagram.
+1. Bot API Server
+The Bot API is an HTTP-based interface created for developers keen on building bots for Telegram.
 
-For each selected component, explain in 1-2 sentences what it does (as you think).
+2. MTProto Gateway (DC Entry)
+An MTProto Gateway or Data Center (DC) Entry in Telegram is the initial connection point, or proxy server, used to establish a secure link between a client application and Telegram's data center infrastructure.
 
-## Data flow
-Embed the product's Sequence Diagram.svg.
-Provide a link to the PlantUML code for that sequence diagram.
-Choose a group of actions (a box in the diagram, group or Flow in the PlantUML code).
-Describe what happens in that group of steps.
-Mention which components talk to each other and what data they exchange.
+3. Secret Chat Relay
+Telegram Secret Chat is a highly secure, device-specific messaging mode featuring end-to-end encryption, self-destruct timers, and no server-side storage.
+
+4. Media & File Service
+The new version of Telegram allows you to play media from services like YouTube, Vimeo or SoundCloud directly from Telegram
+
+5. Auth & Session Service
+Telegram's Authorization and Session Service is based on the proprietary MTProto mobile protocol
+
+# Data Flow
+
+
+[!Telegram Sequence Diagram](./diagrams/out/telegram/architecture-sequence/Sequence%20Diagram.svg)
+
+
+
+[!Telegram Sequence Diagram](./diagrams/src/telegram/architecture-sequence.puml)
+
+
+I’ll pick **Group 2: Checkout (Reservation & Payment)** — the big light-green block in the middle.
+
+---
 ## Deployment
 Embed the product's Deployment Diagram.svg.
 Provide a link to the PlantUML code for that deployment diagram.
