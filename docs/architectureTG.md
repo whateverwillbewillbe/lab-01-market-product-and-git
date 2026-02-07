@@ -3,7 +3,7 @@ Telegram;
 https://web.telegram.org
 Telegram — это популярный, безопасный и быстрый кроссплатформенный мессенджер, основанный в 2013 году.
 ## Main components
-![Telegram Component Diagram]([../../../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg](https://github.com/anakin-shitcoder/lab-01-market-product-and-git/tree/main/docs/diagrams/out/telegram))
+![Telegram Component Diagram](./diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
 Rendered image (click to open)
 Provide a link to the PlantUML code for that component diagram.
