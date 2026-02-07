@@ -6,9 +6,7 @@ Telegram — это популярный, безопасный и быстрый
 ![Telegram Component Diagram](./diagrams/src/telegram/component-diagram/Component%20Diagram.svg)
 
 Rendered image (click to open)
-Provide a link to the PlantUML code for that component diagram.
-
-Example: Telegram Component Diagram Code
+![Telegram Component Diagram](./diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
 Select at least 5 components of the product from the component diagram.
 
