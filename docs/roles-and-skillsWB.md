@@ -167,3 +167,106 @@
 * Documentation and design reviews
 * Cross-team communication
 * Understanding user and business impact
+
+---
+
+## My chosen role
+
+### Role
+
+**Junior Go Backend Developer**
+
+### Skills I already have
+
+<!-- from roadmap.sh -->
+
+* Basic Go syntax (variables, types, functions)
+* Working with structs, slices, and maps
+* Understanding of pointers and memory basics
+* Error handling using the error interface
+* Basic usage of Git and command line tools
+
+### Skills I clearly lack
+
+<!-- 4-5 skills from roadmap.sh that seemed important to have -->
+
+* Production-level concurrency patterns and race condition handling
+* Database integration (PostgreSQL, SQL basics, ORM/pgx)
+* Writing tests in Go (table-driven tests, mocks)
+* Working with Docker and containerized applications
+* System design basics for backend services
+
+---
+
+## Job market snapshot
+
+### Job postings researched
+
+1. **Intern Go Backend Developer**
+
+    https://hh.ru/vacancy/129997278?query=Golang+%D1%81%D1%82%D0%B0%D0%B6%D0%B5%D1%80&hhtmFrom=vacancy_search_list
+   * Go (Golang)
+   * REST API development
+   * PostgreSQL
+   * Git
+
+2. **Junior Go Developer**
+
+    https://hh.ru/vacancy/129929641?query=Junior+Go&hhtmFrom=vacancy_search_list
+   * Go
+   * REST
+   * RabbitMQ
+   * Linux
+
+3. **Junior Backend Engineer (Golang)**
+
+    https://hh.ru/vacancy/129520858?query=Junior+Go&hhtmFrom=vacancy_search_list
+   * Go
+   * PostgreQL/MySQL
+   * RabbitMQ
+   * Kafka
+
+4. **Intent Backend Engineer**
+
+    https://hh.ru/vacancy/129767039?query=Go&hhtmFrom=vacancy_search_list
+   * Go
+   * Algorithms and Data Structures
+
+5. **Junior Go Developer**
+
+    https://hh.ru/vacancy/129602510?query=Junior+Go&hhtmFrom=vacancy_search_list
+    * Go
+   * REST
+   * gRPC
+   * Docker
+   * Git
+   
+
+---
+
+### Skills that appear in several postings
+
+<!-- 3-5 skills -->
+
+* Go (Golang)
+* REST API development
+* SQL / PostgreSQL
+* Git
+
+### Skills specific to a single posting
+
+<!-- 2-5 skills -->
+
+* gRPC
+* Docker
+* Algorithms and data structures
+
+---
+
+## Personal reflection
+
+I chose the Junior Go Backend Developer role because I am interested in backend development and I like Go for its simplicity and performance.
+As a first-year student, I already have basic Go knowledge, understand how backend services work.
+However, compared to job requirements, I clearly lack experience with databases, testing, and production tools like Docker.
+This semester I want to focus on learning SQL and PostgreSQL, because almost every backend job requires working with databases.
+I also want to improve my understanding of Go testing, since writing reliable and maintainable code is important for real projects.
