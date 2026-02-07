@@ -37,19 +37,15 @@ Telegram's Authorization and Session Service is based on the proprietary MTProto
 I’ll pick **Group 2: Checkout (Reservation & Payment)** — the big light-green block in the middle.
 
 ---
-## Deployment
-Embed the product's Deployment Diagram.svg.
-Provide a link to the PlantUML code for that deployment diagram.
-Briefly describe where the components are deployed.
+## Decryption algorithm
+Principles of encryption in Telegram
+MTProto uses several cryptographic methods to provide security:
+AES-256 is a symmetric data encryption algorithm using 256-bit keys.
+RSA-2048 is an asymmetric encryption algorithm for protection of data during transmission.
+Diffie-Hellman is an encryption method where two parties receive a shared secret key which is then used to encrypt messages.
 ## Assumptions
-List two or more assumptions you made while describing the architecture. Examples:
-
-Yandex Go: "I assume the pricing service handles surge pricing calculations based on demand and supply in real-time."
-Telegram: "I assume the cloud storage system implements deduplication to optimize storage costs for shared media files."
-Wildberries: "I assume the Logistics & Routing service integrates with multiple delivery partners to optimize shipping costs and delivery times"
+I assume that MTProto supports protection against man-in-the-middle (MITM) attacks with the use of authentication and verification of keys.
+I assume the cloud storage system implements deduplication to optimize storage costs for shared media files.
 ## Open questions
-List two or more questions that you couldn't answer based on the openly available information. Examples:
-
-Yandex Go: "How does the actual load balancing mechanism work between the microservices in production?"
-Telegram: "How does the data flow look like in secret chats?"
-Wildberries: "What specific caching strategies are used to handle high traffic during sales events?"
+With what TON connected?
+What does "the open network" means?
